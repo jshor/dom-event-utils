@@ -29,7 +29,7 @@ jobs:
 #       - run: npm test
 
   update-version:
-    needs: build
+    needs: release
     runs-on: ubuntu-latest
     steps:
       - uses: EndBug/add-and-commit@v4 # You can change this to use a specific version
