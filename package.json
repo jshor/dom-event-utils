@@ -1,0 +1,28 @@
+{
+  "name": "jshor-test",
+  "version": "0.0.1",
+  "description": "Test TypeScript library.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Josh Shor",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^9.0.1",
+    "@commitlint/config-conventional": "^9.0.1",
+    "@types/jest": "^22.1.4",
+    "@types/node": "^9.4.6",
+    "commitizen": "^4.1.2",
+    "jest": "^22.4.2",
+    "ts-jest": "^22.4.1",
+    "standard-version": "^8.0.0",
+    "typescript": "^2.7.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
