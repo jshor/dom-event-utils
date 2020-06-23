@@ -5,7 +5,10 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "commit": "yarn git-cz",
+    "commitmsg": "commitlint -e $GIT_PARAMS",
+    "release": "standard-version -n"
   },
   "author": "Josh Shor",
   "license": "MIT",
